@@ -15,9 +15,8 @@ I'm a student at **Carnegie Mellon University's School of Computer Science**, pu
 
 ### 🚀 What I'm Currently Working On
 
-*   **At Shopify:** Building a distributed AI agent network using **Neo4j** and developing robust fraud detection systems with **VertexAI**, **BigQuery**, and **Dataflow**.
-*   **At CMU Physics Lab:** Optimizing a **CUDA** kernel for a Graph Neural Network to accelerate particle collision analysis for **CERN** data.
-*   **Research:** Co-authoring a paper on a high-speed **K-Nearest Neighbors** algorithm that achieves up to a **40x speedup** over FAISS in certain scenarios.
+*   **At Shopify:** Built a distributed AI agent network using **Neo4j**. Currently developing robust fraud detection systems with **VertexAI**, **BigQuery**, and **Dataflow**.
+*   **At CMU Physics Lab:** Optimizing a **CUDA** kernel for a Graph Neural Network to accelerate particle collision analysis for CERN data and writing PyTorch C++ Extensions for performance boosts. Co-authoring a paper on a high-speed **K-Nearest Neighbors** algorithm that achieves up to a **40x speedup** over FAISS in certain scenarios.
 
 ---
 
@@ -38,12 +37,17 @@ I'm a student at **Carnegie Mellon University's School of Computer Science**, pu
 #### 🤖 Jarvis - Personal AI Agent
 A multi-modal agentic AI system that enables real-time voice interactions with sub-1.5-second latency. It features intent classification for over a dozen system functions, including Spotify control and macOS automation.
 *   **Tech Used:** Python, LangChain, Whisper ASR, Google Cloud TTS, Cartesia, AppleScript.
-*   `[GitHub Repo]` `[Live Demo/Video]` *(<-- Add your links here!)*
+*   [GitHub Repo](https://github.com/AgarwalAarush/Jarvis/tree/abstraction)
+
+#### AEye Health - Personal Eye Health Tracker
+A personal eye health application that reminds you to take a break away from the screen. Provides analytics to inform you of long-term trends.
+*   **Tech Used:** OpenCV, dlib, Chart.js
+*   [Github Repo](https://github.com/AEYEHealth/AEYEHealth)
 
 #### 📅 MV Test Tracker - Full-Stack Scheduling App
 A full-stack application designed to help manage and balance test schedules for students.
 *   **Tech Used:** Firebase, Firestore, JavaScript, Custom Scheduling Algorithm.
 *   **Impact:** Reduced server overhead and successfully balanced academic workload for students.
-*   `[GitHub Repo]` `[Live Demo]`
+*   [GitHub Repo](https://github.com/mvtime/mvtime.github.io)
 
 ---
