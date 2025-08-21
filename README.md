@@ -2,6 +2,8 @@
 
 I'm a student at **Carnegie Mellon University's School of Computer Science**, pursuing a B.S. in Artificial Intelligence & Computer Science. I'm passionate about building intelligent, high-performance systems that operate at scale. My core interests lie in Deep Learning and Agentic AI, and their applications in full-stack apps.
 
+[Personal Website](https://aarushagarwal.dev)
+
 <p align="left">
   <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_URL" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/>
