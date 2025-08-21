@@ -15,7 +15,7 @@ I'm a student at **Carnegie Mellon University's School of Computer Science**, pu
 
 ### 🚀 What I'm Currently Working On
 
-*   **At Shopify:** Built a distributed AI agent network using **Neo4j**. Currently developing robust fraud detection systems with **VertexAI**, **BigQuery**, and **Dataflow**.
+*   **At Shopify:** Built a distributed AI agent network using **Neo4j**. Developed robust fraud detection systems with **VertexAI**, **BigQuery**, and **Dataflow** through data freshness and feature selection.
 *   **At CMU Physics Lab:** Optimizing a **CUDA** kernel for a Graph Neural Network to accelerate particle collision analysis for CERN data and writing PyTorch C++ Extensions for performance boosts. Co-authoring a paper on a high-speed **K-Nearest Neighbors** algorithm that achieves up to a **40x speedup** over FAISS in certain scenarios.
 
 ---
