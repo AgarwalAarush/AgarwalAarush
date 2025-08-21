@@ -36,10 +36,16 @@ I'm a student at **Carnegie Mellon University's School of Computer Science**, pu
 
 ### 🔧 Projects & Pinned Repositories
 
-#### 🤖 Jarvis - Personal AI Agent
-A multi-modal agentic AI system that enables real-time voice interactions with sub-1.5-second latency. It features intent classification for over a dozen system functions, including Spotify control and macOS automation.
-*   **Tech Used:** Python, LangChain, Whisper ASR, Google Cloud TTS, Cartesia, AppleScript.
-*   [GitHub Repo](https://github.com/AgarwalAarush/Jarvis/tree/abstraction)
+#### 💻 Nova - Local-First AI Assistant for macOS
+A next-generation AI assistant that integrates multiple AI providers (OpenAI, Claude, Mistral, Ollama) into a unified SwiftUI-based macOS application. It features real-time streaming, advanced Whisper ASR speech recognition, and a 50+ tool automation framework spanning display, application, clipboard, and system control.
+*   **Tech Used:** Swift, SwiftUI, Core ML, ONNX Runtime, AVAudioEngine, macOS Automation APIs, Keychain Services.
+*   [GitHub Repo](https://github.com/AgarwalAarush/Nova/)
+
+#### 🌌 Asteria - AI-Powered Mind-Mapping Platform
+An AI-driven web platform for startup ideation, enabling users to create interactive graphs of problems, solutions, markets, and technologies. Features include AI-assisted node generation, intelligent link suggestions, a 5-dimension scoring system, and real-time collaboration across multi-tenant workspaces.
+*   **Tech Used:** Next.js, React, TypeScript, React Flow, TailwindCSS, Supabase (Postgres + Auth), Prisma, Zod, Zustand, shadcn/ui.
+*   [GitHub Repo](https://github.com/AgarwalAarush/Asteria/)
+
 
 #### AEye Health - Personal Eye Health Tracker
 A personal eye health application that reminds you to take a break away from the screen. Provides analytics to inform you of long-term trends.
