@@ -1,6 +1,6 @@
 ### Hey there, I'm Aarush 👋
 
-I'm a student at **Carnegie Mellon University's School of Computer Science**, pursuing a B.S. in Artificial Intelligence & Computer Science. I'm passionate about building intelligent, high-performance systems that operate at scale. My core interests lie in Deep Learning and Agentic AI, and their applications in full-stack apps.
+I'm a student at **Carnegie Mellon University's School of Computer Science**, pursuing a B.S. in Artificial Intelligence & Computer Science. I'm passionate about building intelligent, high-performance systems that operate at scale. My core interests lie in **Deep Learning** and **Agentic AI**, and their applications in full-stack apps.
 
 [Personal Website](https://aarushagarwal.dev)
 
@@ -17,33 +17,47 @@ I'm a student at **Carnegie Mellon University's School of Computer Science**, pu
 
 ### 🚀 What I'm Currently Working On
 
-*   **At Shopify:** Built a distributed AI agent network using **Neo4j**. Developed robust fraud detection systems with **VertexAI**, **BigQuery**, and **Dataflow** through data freshness and feature selection.
-*   **At CMU Physics Lab:** Optimizing a **CUDA** kernel for a Graph Neural Network to accelerate particle collision analysis for CERN data and writing PyTorch C++ Extensions for performance boosts. Co-authoring a paper on a high-speed **K-Nearest Neighbors** algorithm that achieves up to a **40x speedup** over FAISS in certain scenarios.
+**Carnegie Mellon Physics Lab | CUDA Research Assistant (Aug 2024 – Present)**  
+*   Co-authoring a paper on a binning-based parallelized **K-Nearest Neighbors** algorithm, achieving up to a **200x speedup** over FAISS, Annoy, and SCANN in low-dimensional spaces.  
+*   Transitioned Python autograd functions into **C++/CUDA extensions** integrated with PyTorch JIT, decreasing KNN runtime by 10%.  
+
+---
+
+### 💼 Past Internships
+
+**Shopify | Machine Learning Engineer Intern (Summer 2025)**  
+*   Built a **buyer-fraud detection system** with VertexAI, optimized **BigQuery/Dataflow** pipelines to increase predictive accuracy, and applied targeted feature selection to **reduce training iteration time by 70%**.  
+*   Authored a patent for a distributed AI agent framework where specialized agents use **Neo4j graph traversal** to collaboratively decompose and execute tasks.  
 
 ---
 
 ### 🔧 Projects & Pinned Repositories
 
+#### 💊 Medicly - AI-Powered Physical Therapy Platform
+🏆 **HackCMU 2025 Grand Prize Winner (1/250+ teams)**, sponsored by Anthropic, Citadel, Stripe, Jane Street, & HRT.  
+Engineered a multimodal pipeline with **pose estimation, structured kinematics, joint-angle prediction, 3D mesh rendering,** and **LLM-powered recovery reports**, reducing physical therapy evaluation time from **14 days to 10 minutes**.  
+*   **Tech Used:** MediaPipe, OpenCV, PyTorch, LangChain, Three.js, Next.js, Supabase.  
+*   [GitHub Repo](https://github.com/AgarwalAarush/Medicly)
+
 #### 💻 Nova - Local-First AI Assistant for macOS
-A next-generation AI assistant that integrates multiple AI providers (OpenAI, Claude, Mistral, Ollama) into a unified SwiftUI-based macOS application. It features real-time streaming, advanced Whisper ASR speech recognition, and a 50+ tool automation framework spanning display, application, clipboard, and system control.
-*   **Tech Used:** Swift, SwiftUI, Core ML, ONNX Runtime, AVAudioEngine, macOS Automation APIs, Keychain Services.
+Architected a multimodal agentic AI voice assistant integrating **Whisper ASR, LangChain orchestration, dual TTS engines, wake-word detection,** and **intent classification** for real-time system automation and conversational interaction.  
+*   **Tech Used:** Swift, SwiftUI, Core ML, ONNX Runtime, AVAudioEngine, macOS Automation APIs.  
 *   [GitHub Repo](https://github.com/AgarwalAarush/Nova/)
 
 #### 🌌 Asteria - AI-Powered Mind-Mapping Platform
-An AI-driven web platform for startup ideation, enabling users to create interactive graphs of problems, solutions, markets, and technologies. Features include AI-assisted node generation, intelligent link suggestions, a 5-dimension scoring system, and real-time collaboration across multi-tenant workspaces.
-*   **Tech Used:** Next.js, React, TypeScript, React Flow, TailwindCSS, Supabase (Postgres + Auth), Prisma, Zod, Zustand, shadcn/ui.
+An AI-driven web platform for startup ideation, enabling interactive graphs of problems, solutions, markets, and technologies with **AI-assisted node generation, intelligent link suggestions,** and **real-time collaboration**.  
+*   **Tech Used:** Next.js, React, TypeScript, React Flow, Supabase (Postgres + Auth), Prisma.  
 *   [GitHub Repo](https://github.com/AgarwalAarush/Asteria/)
 
-
-#### AEye Health - Personal Eye Health Tracker
-A personal eye health application that reminds you to take a break away from the screen. Provides analytics to inform you of long-term trends.
-*   **Tech Used:** OpenCV, dlib, Chart.js
-*   [Github Repo](https://github.com/AEYEHealth/AEYEHealth)
-
 #### 📅 MV Test Tracker - Full-Stack Scheduling App
-A full-stack application designed to help manage and balance test schedules for students.
-*   **Tech Used:** Firebase, Firestore, JavaScript, Custom Scheduling Algorithm.
-*   **Impact:** Reduced server overhead and successfully balanced academic workload for students.
+Designed and implemented backend with **Firebase/Firestore**, supporting **real-time synchronization, secure authentication,** and a **scheduling optimization algorithm** that reduced server overhead by **40%**.  
+Adopted by **50+ teachers** and impacted **1200+ students** across the school district.  
+*   **Tech Used:** Firebase, Firestore, JavaScript.  
 *   [GitHub Repo](https://github.com/mvtime/mvtime.github.io)
+
+#### 🚀 Rover - Terrain-Adaptive Autonomous Rover
+Built a semi-autonomous rover with a rocker-bogie chassis for terrain-adaptive navigation.  
+Implemented **YOLO-based detection** and **Depth-from-Disparity** for real-time obstacle recognition and distance estimation.  
+*   **Tech Used:** Jetson Nano, YOLO, ROS, OpenCV.  
 
 ---
