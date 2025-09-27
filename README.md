@@ -2,7 +2,7 @@
 
 I'm a student at **Carnegie Mellon University (SCS)** pursuing a B.S. in Artificial Intelligence & Computer Science. I focus on **Deep Learning** and **Agentic AI**, building intelligent, high-performance systems at scale.
 
-[Personal Website](https://aarushagarwal.dev) • [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN_URL) • [Email](mailto:aarusha@andrew.cmu.edu)
+[Personal Website](https://aarushagarwal.dev) • [LinkedIn](https://www.linkedin.com/in/aarush-agarwal-2751a61b1/) • [Email](mailto:aarusha@andrew.cmu.edu)
 
 ---
 
