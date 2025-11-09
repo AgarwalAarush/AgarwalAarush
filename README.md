@@ -4,6 +4,8 @@ I'm a student at **Carnegie Mellon University (SCS)** pursuing a B.S. in Artific
 
 [Personal Website](https://aarushagarwal.dev) • [LinkedIn](https://www.linkedin.com/in/aarush-agarwal-2751a61b1/) • [Email](mailto:aarusha@andrew.cmu.edu)
 
+**Shoutout**: Currently building Athena (check out below!), a voice assisstant for MacOS that allows you to send emails, messages, customize your window layouts, schedule meetings, and use your browser just by speaking!
+
 ---
 
 ### Previously:
