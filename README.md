@@ -1,19 +1,40 @@
-### Hey there, I'm Aarush
+# Aarush Agarwal
 
-I'm a student at **Carnegie Mellon University (SCS)** pursuing a B.S. in Artificial Intelligence & Computer Science. I focus on **Deep Learning** and **Agentic AI**, building intelligent, high-performance systems at scale.
+I study **Artificial Intelligence at Carnegie Mellon University** (SCS, class of 2027) and work on **ML systems, GPU performance, and adaptive models**. My work spans search relevance at Shopify, Mixture-of-Experts research at CMU, and C++/CUDA systems for graph construction and inference.
 
-[Personal Website](https://aarushagarwal.dev) • [LinkedIn](https://www.linkedin.com/in/aarush-agarwal-2751a61b1/) • [Email](mailto:aarusha@andrew.cmu.edu)
+[Website](https://www.aarushagarwal.dev) · [Resume](https://www.aarushagarwal.dev/documents/Resume%20-%20Aarush%20Agarwal.pdf) · [LinkedIn](https://www.linkedin.com/in/aarush-agarwal-2751a61b1/) · [Email](mailto:aarusha@andrew.cmu.edu)
 
----
+## What I'm working on
 
-### Previously:
-- **Shopify:** Machine Learning Engineer Intern, built **buyer-fraud detection system** with VertexAI + BigQuery/Dataflow, cut training iteration time **70%**, and authored patent for **Neo4j agentic AI framework**.
-- **Carnegie Mellon Physics Lab:** CUDA Research Assistant, co-authoring paper on binning-based KNN algorithm achieving up to **200x speedup**; developed PyTorch C++/CUDA extensions for faster training. 
+- **Shopify · ML Engineer Intern, Search Relevance** — Training and compressing query-rewriting models, improving search ranking, and optimizing GPU serving. Built a merchant-aware training objective that improved Shopify's Merchant Plus relevance metric by **10%**. Compressed Qwen3.5-0.8B from **24 → 16 layers** and **248K → 65K vocabulary**, matching production term F1 through distillation.
+- **CMU Language Technologies Institute · ML Researcher** — Researching adaptive multimodal **Mixture-of-Experts** architectures with Chenyan Xiong, including capacity expansion for out-of-distribution data and autonomous model-adaptation experiments.
+- **Open-source ML systems** — Proposed fixes for FP8 GEMM benchmark cache/timing issues in [SGLang #50551](https://github.com/sgl-project/sglang/pull/50551) and Gated DeltaNet workspace sizing under CUDA MPS in [FlashInfer #9499](https://github.com/flashinfer-ai/flashinfer/pull/9499). Both are open pull requests.
 
----
+Previously, I worked on **buyer-fraud ML at Shopify**, reducing training iteration time by **70%** and co-filing a patent on a Neo4j-based multi-agent execution system.
 
-### Favorite Projects (More [Here](https://aarushagarwal.dev))
-- **Haven**: **CalHacks 12.0 1st Place (YC & Fetch.AI Tracks) & Best Startup Award (600+ teams)**. Multi-agent hospital intelligence platform coordinating agents for autonomous patient monitoring, CV-based vital tracking (FPPG), and real-time clinical decision support with 3d visualizations. [Repo](https://github.com/scrappydevs/haven)
-- **Medicly:** **HackCMU 2025 Grand Prize (1/200+)**. Multimodal AI pipeline (pose estimation, 3D mesh, LLM reports) reducing PT evaluation from 14 days → 10 minutes. [Repo](https://github.com/scrappydevs/medicly)
-- **Yumi:** **HackHarvard 3rd Place (3/150+)**. Agentic social network solving group dining with AI-powered taste profiles, multi-user preference merging, and personalized restaurant discovery. [Repo](https://github.com/scrappydevs/Yumi)
-- **Healthier:** **Nova Hacks 2nd in Healthcare**. Making senior care accessible and affordable. Custom trained YOLOv8 model with on-device inference, AI-powered food and exercise analysis (pose-estimation), and live updates on a 3d clinician dashboard. [Repo](https://github.com/scrappydevs/healthier)
+## Selected work
+
+### [FastGraph](https://www.aarushagarwal.dev/projects/FastGraph) · Exact GPU nearest-neighbor search
+
+First author of the FastGraph paper. Developed PCA-subspace pruning and rewrote selected C++/CUDA kernels, building on Jan Kieseler's original implementation. The evaluated system achieved **41× speedup over exact FAISS-GPU** on an HGCAL-derived workload: **5M points, 8 dimensions, 40 neighbors, A100 80 GB**.
+
+[Code](https://github.com/AgarwalAarush/FastGraphCompute) · [Paper](https://github.com/AgarwalAarush/fastgraph-paper/blob/869f9d41277c75000f51e968ac5abe655a20b9d7/Paper.pdf) · [Benchmarks & approach](https://www.aarushagarwal.dev/projects/FastGraph)
+
+### [AutoReflex](https://www.aarushagarwal.dev/projects/AutoReflex) · Vision meets real-time control
+
+**3rd place, Hackberry Pi.** Connected **100 FPS** vision on a Jetson Orin Nano to a Raspberry Pi **1 kHz PID** control loop over UDP, with approximately **30 ms** camera-to-actuation latency.
+
+[Code](https://github.com/beeler-devs/HackberryPi) · [Demo & architecture](https://www.aarushagarwal.dev/projects/AutoReflex)
+
+### [Haven](https://www.aarushagarwal.dev/projects/Haven) · Multi-agent hospital intelligence
+
+**CalHacks 12.0: YC & Fetch.AI track wins and Best Startup.** Built backend agent infrastructure, an OpenCV/FastICA rPPG heart-rate pipeline, and real-time voice intake with LiveKit and Groq.
+
+[Code](https://github.com/scrappydevs/haven) · [Demo & architecture](https://www.aarushagarwal.dev/projects/Haven)
+
+More builds: [Mimir — AI tutoring](https://www.aarushagarwal.dev/projects/Mimir) · [Medicly — physical therapy feedback](https://www.aarushagarwal.dev/projects/Medicly) · [Yumi — group dining agents](https://www.aarushagarwal.dev/projects/Yumi)
+
+## Tools & interests
+
+**Python · C++ · CUDA · PyTorch**  
+Model compression and distillation · GPU inference · Mixture-of-Experts · Search ranking · Geometric deep learning
