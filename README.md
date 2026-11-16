@@ -2,7 +2,7 @@
 
 I'm a **6× hackathon winner** studying **Artificial Intelligence at Carnegie Mellon University** (SCS, class of 2027), focused on **ML systems, GPU performance, and adaptive models**. My work spans search relevance at Shopify, Mixture-of-Experts research at CMU, and C++/CUDA systems for graph construction and inference.
 
-[Website](https://www.aarushagarwal.dev) · [Resume](https://www.aarushagarwal.dev/documents/Resume%20-%20Aarush%20Agarwal.pdf) · [LinkedIn](https://www.linkedin.com/in/aarush-agarwal-2751a61b1/) · [Email](mailto:aarusha@andrew.cmu.edu)
+[Website](https://www.aarushagarwal.dev) · [Resume](https://www.aarushagarwal.dev/documents/Resume%20-%20Aarush%20Agarwal.pdf) · [LinkedIn](https://www.linkedin.com/in/aarush-agarwal-2751a61b1/)
 
 ## What I'm working on
 
@@ -16,7 +16,7 @@ Previously, I worked on **buyer-fraud ML at Shopify**, reducing training iterati
 
 ### [FastGraph](https://www.aarushagarwal.dev/projects/FastGraph) · Exact GPU nearest-neighbor search
 
-First author of the FastGraph paper. Developed PCA-subspace pruning and rewrote selected C++/CUDA kernels, building on Jan Kieseler's original implementation. The evaluated system achieved **41× speedup over exact FAISS-GPU** on an HGCAL-derived workload: **5M points, 8 dimensions, 40 neighbors, A100 80 GB**.
+First author of the FastGraph paper. Developed PCA-subspace pruning and rewrote selected C++/CUDA kernels, building on Jan Kieseler's original implementation. The evaluated system achieved **41× speedup over exact FAISS-GPU** on an HGCAL-derived workload.
 
 [Code](https://github.com/AgarwalAarush/FastGraphCompute) · [Paper](https://github.com/AgarwalAarush/fastgraph-paper/blob/869f9d41277c75000f51e968ac5abe655a20b9d7/Paper.pdf) · [Benchmarks & approach](https://www.aarushagarwal.dev/projects/FastGraph)
 
