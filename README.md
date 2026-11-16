@@ -10,8 +10,6 @@ I'm a **6× hackathon winner** studying **Artificial Intelligence at Carnegie Me
 - **CMU Language Technologies Institute · ML Researcher** — Researching adaptive multimodal **Mixture-of-Experts** architectures with Chenyan Xiong, including capacity expansion for out-of-distribution data and autonomous model-adaptation experiments.
 - **Open-source ML systems** — Proposed fixes for FP8 GEMM benchmark cache/timing issues in [SGLang #50551](https://github.com/sgl-project/sglang/pull/50551) and Gated DeltaNet workspace sizing under CUDA MPS in [FlashInfer #9499](https://github.com/flashinfer-ai/flashinfer/pull/9499). Both are open pull requests.
 
-Previously, I worked on **buyer-fraud ML at Shopify**, reducing training iteration time by **70%** and co-filing a patent on a Neo4j-based multi-agent execution system.
-
 ## Selected work
 
 ### [FastGraph](https://www.aarushagarwal.dev/projects/FastGraph) · Exact GPU nearest-neighbor search
@@ -22,13 +20,13 @@ First author of the FastGraph paper. Developed PCA-subspace pruning and rewrote 
 
 ### [AutoReflex](https://www.aarushagarwal.dev/projects/AutoReflex) · Vision meets real-time control
 
-**3rd place, Hackberry Pi.** Connected **100 FPS** vision on a Jetson Orin Nano to a Raspberry Pi **1 kHz PID** control loop over UDP, with approximately **30 ms** camera-to-actuation latency.
+Built a hardware-in-the-loop aim-assist system that turns visual detections into physical corrections, winning **3rd place at Hackberry Pi**. A Jetson Orin Nano processes vision at **100 FPS** and streams coordinates over UDP to a Raspberry Pi running a **1 kHz PID** controller. The system drives physical actuators with approximately **30 ms** camera-to-actuation latency.
 
 [Code](https://github.com/beeler-devs/HackberryPi) · [Demo & architecture](https://www.aarushagarwal.dev/projects/AutoReflex)
 
 ### [Haven](https://www.aarushagarwal.dev/projects/Haven) · Multi-agent hospital intelligence
 
-**CalHacks 12.0: YC & Fetch.AI track wins and Best Startup.** Built backend agent infrastructure, an OpenCV/FastICA rPPG heart-rate pipeline, and real-time voice intake with LiveKit and Groq.
+Built a multi-agent hospital intelligence platform that brings patient monitoring, voice intake, and a live 3D hospital dashboard into one interface. Developed the backend agent infrastructure, an OpenCV/FastICA rPPG heart-rate pipeline, and real-time voice intake with LiveKit and Groq. Won the **YC & Fetch.AI tracks and Best Startup at CalHacks 12.0**.
 
 [Code](https://github.com/scrappydevs/haven) · [Demo & architecture](https://www.aarushagarwal.dev/projects/Haven)
 
